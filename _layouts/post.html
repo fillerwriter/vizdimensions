@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+
+<div class="post">
+{% if page.video %}<div><iframe id="ytplayer" type="text/html" width="640" height="390" src="{{ page.video }}" frameborder="0"></iframe></div>{% endif %}
+<p class="meta">{{ page.date | date_to_string }}</p>
+{{ content }}
+</div>

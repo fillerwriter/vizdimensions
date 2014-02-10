@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,900,300italic,600italic,900italic|Hammersmith+One' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="/lib/sass-bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/lib/sass-bootstrap/dist/css/bootstrap-theme.min.css" />
+        <link rel="stylesheet" href="/css/site.css" />
+
+        <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+        <script src="/lib/sass-bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="/lib/d3/d3.v3.min.js"></script>
+        <script src="/lib/moment-2.5.1/min/moment.min.js"></script>
+        <script src="/js/banner.js"></script>
+        <script src="/js/post.js"></script>
+
+    </head>
+    <body>
+      <header>
+        <svg class="banner"></svg>
+      </header>
+        <div class="container">
+          <div class="site">
+                {{ content }}
+          </div>
+        </div> <!-- /container -->
+        <div class="footer-top">
+            <svg class="banner"></svg>
+        </div>
+        <footer>
+          <div class="container">
+            <p>Visual Dimensions is a project by <a class="p2-link" href="http://phase2technology.com">Phase2</a></p>
+          </div>
+        </footer>
+    </body>
+</html>
