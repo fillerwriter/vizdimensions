@@ -3,18 +3,18 @@ layout: default
 title: Visual Dimensions
 ---
 
-<div class="col-lg-4">&nbsp;
+<div class="col-md-4">&nbsp;
   {% include header.html %}
 </div>
-<div class="col-lg-8">
+<div class="col-md-8">
   {% for post in site.posts %}
-    <div class="row">
-    <div class="col-lg-9">
+    <div class="row post">
+    <div class="col-md-10">
       <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
       {% if post.video %}<div class="video-wrapper"><iframe id="ytplayer" type="text/html" src="{{ post.video }}" frameborder="0"></iframe></div>{% endif %}
       <div>{{ post.excerpt }}</div>
     </div>
-    <div class="col-lg-3">
+    <div class="col-md-2">
       <div class="post-date" data-date="{{post.date | | date: "%-d %m %Y" }}">
       </div>
     </div>

@@ -4,10 +4,17 @@ body {
 }
 a {
   color: adjust-saturation(darken(#96bcb8, 30), 60);
+  &:hover {
+    color: #fd7900;
+  }
 }
 
 .p2-link {
   color: #fd7900;
+}
+
+.copyright {
+  color: adjust-saturation(lighten(#303e48, 25), -15);
 }
 
 .host {
@@ -42,13 +49,13 @@ a {
 .footer-top {
   position: relative;
   top: 10px;
+  padding-top: 2em;
 }
 
 footer {
   background: #303e48;
   color: #FFF;
   padding: 1em 0;
-  text-align: right;
 }
 
 .banner {
@@ -74,6 +81,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.post {
+  font-size: 18px;
+}
+
 .video-wrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
@@ -95,4 +106,163 @@ h1, h2, h3, h4, h5, h6 {
 
 .promo {
   margin-bottom: 1em;
+}
+
+$icon-color: #F00;
+
+/**
+ * Phase2 social icons
+ */
+
+.social-icons {
+  float: right;
+}
+.phase2-social-icons {
+  list-style: none;
+  margin: 0 auto;
+  overflow: hidden;
+  background: lighten(#303e48, 4);
+  border: 1px solid lighten(#303e48, 12);
+  display: inline-block;
+  padding: 0.5em;
+  border-radius: 0.25em;
+
+  $icon-color: #000;
+
+  li {
+    float:left;
+    position: relative;
+  }
+
+  .icon-header {
+    width: 0;
+    border-bottom: 10px solid $icon-color;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+    top: -10px;
+    display: block;
+  }
+
+  a {
+    height: 20px;
+    vertical-align: middle;
+    background-color: $icon-color;
+    display: block;
+
+    img {
+      top: 4px;
+      position: absolute;
+      left: 1px;
+    }
+  }
+
+  .icon-footer {
+    width: 0;
+    border-top: 10px solid $icon-color;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+    bottom: -10px;
+    display: block;
+  }
+
+  .twitter {
+    $icon-color: #00afc9;
+
+    .icon-footer {
+      border-top-color:$icon-color;
+    }
+
+    .icon-header {
+      border-bottom-color: $icon-color;
+    }
+
+    a {
+      background-color: $icon-color;
+    }
+  }
+
+  .facebook {
+    $icon-color: #3a5897;
+
+    .icon-footer {
+      border-top-color:$icon-color;
+    }
+
+    .icon-header {
+      border-bottom-color: $icon-color;
+    }
+
+    a {
+      background-color: $icon-color;
+    }
+
+    img {
+      height: 27px;
+      left: 0px;
+    }
+  }
+
+  .linked-in {
+    $icon-color: #0374b2;
+
+    .icon-footer {
+      border-top-color:$icon-color;
+    }
+
+    .icon-header {
+      border-bottom-color: $icon-color;
+    }
+
+    a {
+      background-color: $icon-color;
+    }
+  }
+
+  .vimeo {
+    $icon-color: #3fb0f0;
+
+    .icon-footer {
+      border-top-color:$icon-color;
+    }
+
+    .icon-header {
+      border-bottom-color: $icon-color;
+    }
+
+    a {
+      background-color: $icon-color;
+    }
+  }
+
+  .flickr {
+    $icon-color: #fe0480;
+
+    .icon-footer {
+      border-top-color:$icon-color;
+    }
+
+    .icon-header {
+      border-bottom-color: $icon-color;
+    }
+
+    a {
+      background-color: $icon-color;
+    }
+  }
+
+  .slideshare {
+    $icon-color: #e79244;
+
+    .icon-footer {
+      border-top-color:$icon-color;
+    }
+
+    .icon-header {
+      border-bottom-color: $icon-color;
+    }
+
+    a {
+      background-color: $icon-color;
+    }
+  }
 }
