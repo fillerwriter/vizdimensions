@@ -105,8 +105,12 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .post {
   font-size: 18px;
 }
+/* line 86, ../scss/site.scss */
+.post h1 {
+  color: #fd7900;
+}
 
-/* line 88, ../scss/site.scss */
+/* line 91, ../scss/site.scss */
 .video-wrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -115,7 +119,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   height: 0;
 }
 
-/* line 94, ../scss/site.scss */
+/* line 97, ../scss/site.scss */
 .video-wrapper iframe {
   position: absolute;
   top: 0;
@@ -124,13 +128,13 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   height: 100%;
 }
 
-/* line 102, ../scss/site.scss */
+/* line 105, ../scss/site.scss */
 #email-subscribe-form {
   display: inline-block;
   margin-bottom: 1em;
 }
 
-/* line 107, ../scss/site.scss */
+/* line 110, ../scss/site.scss */
 .promo {
   margin-bottom: 1em;
 }
@@ -138,12 +142,12 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 /**
  * Phase2 social icons
  */
-/* line 117, ../scss/site.scss */
+/* line 120, ../scss/site.scss */
 .social-icons {
   float: right;
 }
 
-/* line 120, ../scss/site.scss */
+/* line 123, ../scss/site.scss */
 .phase2-social-icons {
   list-style: none;
   margin: 0 auto;
@@ -154,12 +158,12 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   padding: 0.5em;
   border-radius: 0.25em;
 }
-/* line 132, ../scss/site.scss */
+/* line 135, ../scss/site.scss */
 .phase2-social-icons li {
   float: left;
   position: relative;
 }
-/* line 137, ../scss/site.scss */
+/* line 140, ../scss/site.scss */
 .phase2-social-icons .icon-header {
   width: 0;
   border-bottom: 10px solid black;
@@ -168,20 +172,20 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   top: -10px;
   display: block;
 }
-/* line 146, ../scss/site.scss */
+/* line 149, ../scss/site.scss */
 .phase2-social-icons a {
   height: 20px;
   vertical-align: middle;
   background-color: black;
   display: block;
 }
-/* line 152, ../scss/site.scss */
+/* line 155, ../scss/site.scss */
 .phase2-social-icons a img {
   top: 4px;
   position: absolute;
   left: 1px;
 }
-/* line 159, ../scss/site.scss */
+/* line 162, ../scss/site.scss */
 .phase2-social-icons .icon-footer {
   width: 0;
   border-top: 10px solid black;
@@ -190,80 +194,80 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   bottom: -10px;
   display: block;
 }
-/* line 171, ../scss/site.scss */
+/* line 174, ../scss/site.scss */
 .phase2-social-icons .twitter .icon-footer {
   border-top-color: #00afc9;
 }
-/* line 175, ../scss/site.scss */
+/* line 178, ../scss/site.scss */
 .phase2-social-icons .twitter .icon-header {
   border-bottom-color: #00afc9;
 }
-/* line 179, ../scss/site.scss */
+/* line 182, ../scss/site.scss */
 .phase2-social-icons .twitter a {
   background-color: #00afc9;
 }
-/* line 187, ../scss/site.scss */
+/* line 190, ../scss/site.scss */
 .phase2-social-icons .facebook .icon-footer {
   border-top-color: #3a5897;
 }
-/* line 191, ../scss/site.scss */
+/* line 194, ../scss/site.scss */
 .phase2-social-icons .facebook .icon-header {
   border-bottom-color: #3a5897;
 }
-/* line 195, ../scss/site.scss */
+/* line 198, ../scss/site.scss */
 .phase2-social-icons .facebook a {
   background-color: #3a5897;
 }
-/* line 199, ../scss/site.scss */
+/* line 202, ../scss/site.scss */
 .phase2-social-icons .facebook img {
   height: 27px;
   left: 0px;
 }
-/* line 208, ../scss/site.scss */
+/* line 211, ../scss/site.scss */
 .phase2-social-icons .linked-in .icon-footer {
   border-top-color: #0374b2;
 }
-/* line 212, ../scss/site.scss */
+/* line 215, ../scss/site.scss */
 .phase2-social-icons .linked-in .icon-header {
   border-bottom-color: #0374b2;
 }
-/* line 216, ../scss/site.scss */
+/* line 219, ../scss/site.scss */
 .phase2-social-icons .linked-in a {
   background-color: #0374b2;
 }
-/* line 224, ../scss/site.scss */
+/* line 227, ../scss/site.scss */
 .phase2-social-icons .vimeo .icon-footer {
   border-top-color: #3fb0f0;
 }
-/* line 228, ../scss/site.scss */
+/* line 231, ../scss/site.scss */
 .phase2-social-icons .vimeo .icon-header {
   border-bottom-color: #3fb0f0;
 }
-/* line 232, ../scss/site.scss */
+/* line 235, ../scss/site.scss */
 .phase2-social-icons .vimeo a {
   background-color: #3fb0f0;
 }
-/* line 240, ../scss/site.scss */
+/* line 243, ../scss/site.scss */
 .phase2-social-icons .flickr .icon-footer {
   border-top-color: #fe0480;
 }
-/* line 244, ../scss/site.scss */
+/* line 247, ../scss/site.scss */
 .phase2-social-icons .flickr .icon-header {
   border-bottom-color: #fe0480;
 }
-/* line 248, ../scss/site.scss */
+/* line 251, ../scss/site.scss */
 .phase2-social-icons .flickr a {
   background-color: #fe0480;
 }
-/* line 256, ../scss/site.scss */
+/* line 259, ../scss/site.scss */
 .phase2-social-icons .slideshare .icon-footer {
   border-top-color: #e79244;
 }
-/* line 260, ../scss/site.scss */
+/* line 263, ../scss/site.scss */
 .phase2-social-icons .slideshare .icon-header {
   border-bottom-color: #e79244;
 }
-/* line 264, ../scss/site.scss */
+/* line 267, ../scss/site.scss */
 .phase2-social-icons .slideshare a {
   background-color: #e79244;
 }
