@@ -3,11 +3,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 a {
-  color: #96bcb8;
-}
-
-p {
-  //padding-bottom: 1em;
+  color: adjust-saturation(darken(#96bcb8, 30), 60);
 }
 
 .p2-link {
@@ -73,6 +69,9 @@ footer {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Hammersmith One", sans-serif;
+  a {
+    color: #303e48;
+  }
 }
 
 .video-wrapper {

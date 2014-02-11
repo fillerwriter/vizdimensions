@@ -6,31 +6,31 @@ body {
 
 /* line 5, ../scss/site.scss */
 a {
-  color: #96bcb8;
+  color: #11a898;
 }
 
-/* line 13, ../scss/site.scss */
+/* line 9, ../scss/site.scss */
 .p2-link {
   color: #fd7900;
 }
 
-/* line 17, ../scss/site.scss */
+/* line 13, ../scss/site.scss */
 .host {
   clear: both;
   margin-bottom: 1em;
   overflow: hidden;
 }
-/* line 21, ../scss/site.scss */
+/* line 17, ../scss/site.scss */
 .host .circular {
   float: left;
 }
-/* line 24, ../scss/site.scss */
+/* line 20, ../scss/site.scss */
 .host .name {
   margin-left: 85px;
   line-height: 75px;
 }
 
-/* line 30, ../scss/site.scss */
+/* line 26, ../scss/site.scss */
 .circular {
   width: 75px;
   height: 75px;
@@ -39,23 +39,23 @@ a {
   border: 1px solid #333;
 }
 
-/* line 38, ../scss/site.scss */
+/* line 34, ../scss/site.scss */
 .circular.astone {
   background: url("/img/astone.png") center center no-repeat;
 }
 
-/* line 42, ../scss/site.scss */
+/* line 38, ../scss/site.scss */
 .circular.bmorrison {
   background: url("/img/bmorrison.png") center center no-repeat;
 }
 
-/* line 46, ../scss/site.scss */
+/* line 42, ../scss/site.scss */
 .footer-top {
   position: relative;
   top: 10px;
 }
 
-/* line 51, ../scss/site.scss */
+/* line 47, ../scss/site.scss */
 footer {
   background: #303e48;
   color: #FFF;
@@ -63,32 +63,36 @@ footer {
   text-align: right;
 }
 
-/* line 58, ../scss/site.scss */
+/* line 54, ../scss/site.scss */
 .banner {
   width: 100%;
 }
 
-/* line 62, ../scss/site.scss */
+/* line 58, ../scss/site.scss */
 .post-date {
   font-family: "Hammersmith One", sans-serif;
   margin-top: 1.1em;
 }
-/* line 65, ../scss/site.scss */
+/* line 61, ../scss/site.scss */
 .post-date .month {
   letter-spacing: 4px;
   text-transform: uppercase;
 }
-/* line 69, ../scss/site.scss */
+/* line 65, ../scss/site.scss */
 .post-date .day {
   font-size: 30px;
 }
 
-/* line 74, ../scss/site.scss */
+/* line 70, ../scss/site.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Hammersmith One", sans-serif;
 }
+/* line 72, ../scss/site.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: #303e48;
+}
 
-/* line 78, ../scss/site.scss */
+/* line 77, ../scss/site.scss */
 .video-wrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -97,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 0;
 }
 
-/* line 84, ../scss/site.scss */
+/* line 83, ../scss/site.scss */
 .video-wrapper iframe {
   position: absolute;
   top: 0;
@@ -106,13 +110,13 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
 }
 
-/* line 92, ../scss/site.scss */
+/* line 91, ../scss/site.scss */
 #email-subscribe-form {
   display: inline-block;
   margin-bottom: 1em;
 }
 
-/* line 97, ../scss/site.scss */
+/* line 96, ../scss/site.scss */
 .promo {
   margin-bottom: 1em;
 }
