@@ -6,6 +6,10 @@ a {
   color: #96bcb8;
 }
 
+p {
+  //padding-bottom: 1em;
+}
+
 .p2-link {
   color: #fd7900;
 }
@@ -87,4 +91,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #email-subscribe-form {
   display: inline-block;
+  margin-bottom: 1em;
+}
+
+.promo {
+  margin-bottom: 1em;
 }
