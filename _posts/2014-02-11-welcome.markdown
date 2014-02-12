@@ -4,14 +4,12 @@ title:  "Welcome to Visual Dimensions"
 date:   2014-02-11 2:00:00
 ---
 
-<img src="/img/blue-marble-globe.png" alt="Blue Marble Imagery" style="max-width: 100%; padding: 1em;" />
+<img src="/img/blue-marble-globe.png" alt="Blue Marble Imagery" style="max-width: 100%; padding: 1em 6em;" />
 
 Introducing Phase2's video podcast project titled, Visual Dimensions. This monthly vodcast series gives you an opportunity to participate in an open conversation with industry experts about the latest strategies and tools for developing visualizations and interactive experiences!
 
 Our first vodcast, on February 20th, will be co-hosted by NASA’s visualization expert, <a href="https://twitter.com/rsimmon">Robert Simmon</a> who will discuss best practices for creating visualizations for <a href="http://earthobservatory.nasa.gov/">NASA’s Earth Observatory</a>. From use of color, to image choice, to use of symbols in mapping, Rob will take us through his tried and tested process for visually communicating data about our world. 
 
-<strong>Register here for this month’s Visual Dimensions Vodcast, happening on February 20th at 11AM EST:</strong> 
-
-<a href="https://www4.gotomeeting.com/register/790598127">“It's Not Rocket Science! - Creating NASA's Data Visualizations”</a>
+<strong>Register here for this month’s Visual Dimensions Vodcast, happening on February 20th at 11AM EST:</strong> &nbsp; <a href="https://www4.gotomeeting.com/register/790598127">“It's Not Rocket Science! - Creating NASA's Data Visualizations”</a>
 
 <!--more-->
