@@ -1,3 +1,4 @@
 name: Visual Dimensions
 pygments: true
 excerpt_separator: <!--more-->
+baseurl: /vizdimensions
