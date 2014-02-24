@@ -50,12 +50,12 @@ a:hover {
 
 /* line 41, ../scss/site.scss */
 .circular.astone {
-  background: url("/img/astone.png") center center no-repeat;
+  background: url("../img/astone.png") center center no-repeat;
 }
 
 /* line 45, ../scss/site.scss */
 .circular.bmorrison {
-  background: url("/img/bmorrison.png") center center no-repeat;
+  background: url("../img/bmorrison.png") center center no-repeat;
 }
 
 /* line 49, ../scss/site.scss */
