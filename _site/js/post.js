@@ -54,10 +54,29 @@
         .style("fill", function(d, i) { return color(i); });
 
 var dateText = svg.selectAll('.date')
-          .data(dateData[index].date)
-          .enter().append('g')
-            .attr({class: 'date'})
-            .html(function(d, i) {return "<text x='0' y='-8' text-anchor='middle' class='month'>" + moment.monthsShort()[d.month] + "</text><text text-anchor='middle' x='0' y='15' class='day'>" + d.day + "</text>"; });
+          .data(dateData[index].date);
+    
+    dateText.enter().append('g')
+            .attr({class: 'date'});
+
+    dateText.append('text')
+      .attr({
+        x: 0,
+        y: -8,
+        'text-anchor': 'middle'
+      })
+      .classed('month', true)
+      .text(function(d) { return moment.monthsShort()[d.month]; });
+
+    dateText.append('text')
+      .attr({
+        x: 0,
+        y: 17,
+        'text-anchor': 'middle'
+      })
+      .classed('day', true)
+      .text(function(d) { return d.day; });
+            //<text text-anchor='middle' x='0' y='15' class='day'>" + d.day + "</text>"; });
 
 
     });
