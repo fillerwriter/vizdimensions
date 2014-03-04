@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Episode 1, It's Not Rocket Science"
-date:   2014-02-20 4:00:00
-video:  //www.youtube.com/embed/n4Hn3G9UYr0
+title: "Episode 1, It's Not Rocket Science"
+date: {}
+video: //www.youtube.com/embed/n4Hn3G9UYr0
+published: true
 ---
 
 It was so great to kick off our first Visual Dimensions episode with <a href="https://twitter.com/rsimmon">Rob Simmon</a>, art director of NASA’s Earth Observatory! Brandon and Rob discussed use of color in visualizations as well as visual mapping strategies.  We had a slight glitch with the Q&A during recording, but you can find the questions that were asked and Rob’s answers here:
@@ -27,5 +28,7 @@ Here are some cool additional data visualization resources:
 - <a href="http://earthobservatory.nasa.gov/">NASA Earth Observatory</a>: The Earth Observatory showcases many different maps taken as a part of the research happening at the Goddard Space Flight Center.
 
 Look out for next month’s vodcast, where we will be exploring content strategy for educational interactives with <a href="http://www.cfr.org/">Council On Foreign Relations</a> and we’ll get an exclusive tour of their interactive publishing tool, with <a href="https://twitter.com/jeremysherlick">Jeremy Sherlick</a>, Deputy Director of Multimedia at Council On Foreign Relations. 
+
+This is a test on the live site.
 
 <!--more-->
