@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Episode 1, It's Not Rocket Science"
-date: 2014-02-20 2:00:00
+date: "2014-02-20 21:00:00"
 video: //www.youtube.com/embed/n4Hn3G9UYr0
 published: true
 ---
@@ -29,4 +29,5 @@ Here are some cool additional data visualization resources:
 
 Look out for next month’s vodcast, where we will be exploring content strategy for educational interactives with <a href="http://www.cfr.org/">Council On Foreign Relations</a> and we’ll get an exclusive tour of their interactive publishing tool, with <a href="https://twitter.com/jeremysherlick">Jeremy Sherlick</a>, Deputy Director of Multimedia at Council On Foreign Relations. 
 
+test
 <!--more-->
