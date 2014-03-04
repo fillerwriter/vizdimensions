@@ -20,3 +20,10 @@ prose:
         field:
           element: "text"
           label: "Published Date"
+          value: CURRENT_DATETIME
+      - name: "video"
+        field:
+          element: "text"
+          label: "Youtube Video"
+          placeholder: "//www.youtube.com/embed/[videoid]"
+          description: "Appears at the top of the post. Be sure to grab the snippet from the embed code on Youtube."
