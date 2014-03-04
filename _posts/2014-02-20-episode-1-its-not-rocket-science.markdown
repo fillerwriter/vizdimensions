@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Episode 1, It's Not Rocket Science"
-date: {}
+date: 2014-02-20 2:00:00
 video: //www.youtube.com/embed/n4Hn3G9UYr0
 published: true
 ---
