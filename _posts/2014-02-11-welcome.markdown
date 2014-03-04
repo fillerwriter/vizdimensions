@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Visual Dimensions"
-date:   2014-02-11 2:00:00
+title: Welcome to Visual Dimensions
+date: {}
+published: true
 ---
 
 <img src="/img/blue-marble-globe.png" alt="Blue Marble Imagery" style="max-width: 100%; padding: 1em 6em;" />
@@ -12,4 +13,5 @@ Our first vodcast, on February 20th, will be co-hosted by NASA’s visualization
 
 <strong>Register here for this month’s Visual Dimensions Vodcast, happening on February 20th at 11AM EST:</strong> &nbsp; <a href="https://www4.gotomeeting.com/register/790598127">“It's Not Rocket Science! - Creating NASA's Data Visualizations”</a>
 
+test
 <!--more-->
