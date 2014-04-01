@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: The Craft of Building Educational Interactive Stories
+title: "Episode 2: The Craft of Building Educational Interactive Stories"
 video: "//www.youtube.com/embed/6mh6I-ZU_eQ"
 date: "2014-04-01 10:26:57 -0500"
 ---
@@ -15,4 +15,3 @@ Learn more about how CFR builds their interactive presentations in the following
 2. [CFR/Phase2 Case Study](http://www.phase2technology.com/client/council-on-foreign-relations/)
 
 3. "[CFR- Changing The Digital Landscape](http://www.phase2technology.com/blog/council-on-foreign-relations-leading-the-way-with-in-house-interactive-publishing-tools/)"
-
