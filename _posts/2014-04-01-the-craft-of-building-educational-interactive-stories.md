@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: "Episode 2: The Craft of Building Educational Interactive Stories"
 video: "//www.youtube.com/embed/6mh6I-ZU_eQ"
 date: "2014-04-01 10:26:57 -0500"
