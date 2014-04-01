@@ -27,5 +27,5 @@ Here are some cool additional data visualization resources:
 - <a href="http://thumbsupviz.com/">Thumbs Up Viz</a>: This site is a showcase of interesting implementations of maps and data visualizations.
 - <a href="http://earthobservatory.nasa.gov/">NASA Earth Observatory</a>: The Earth Observatory showcases many different maps taken as a part of the research happening at the Goddard Space Flight Center.
 
-Look out for next month’s vodcast, where we will be exploring content strategy for educational interactives with <a href="http://www.cfr.org/">Council On Foreign Relations</a> and we’ll get an exclusive tour of their interactive publishing tool, with <a href="https://twitter.com/jeremysherlick">Jeremy Sherlick</a>, Deputy Director of Multimedia at Council On Foreign Relations. 
+Look out for next month’s vodcast, where we will be exploring content strategy for educational interactives with <a href="http://www.cfr.org/">Council On Foreign Relations</a> and we’ll get an exclusive tour of their interactive publishing tool, with <a href="https://twitter.com/jeremysherlick">Jeremy Sherlick</a>, Deputy Director of Multimedia at Council On Foreign Relations. [Register for this vodcast!](https://www4.gotomeeting.com/register/843233895)
 <!--more-->
