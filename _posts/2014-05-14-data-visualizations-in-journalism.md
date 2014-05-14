@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Data Visualizations in Journalism
 video: "//www.youtube.com/embed/eK-raI9iPpE"
 date: "2014-05-14 12:00:00"
